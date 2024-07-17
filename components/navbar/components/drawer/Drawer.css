@@ -1,0 +1,18 @@
+.drawer-list {
+  list-style: none;
+  color: #164e4e;
+}
+
+.drawer-item {
+  padding: 1rem;
+}
+
+.drawer-item > a {
+  color: #164e4e;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.drawer-item > a:hover {
+  color: #e3a781;
+}

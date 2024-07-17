@@ -1,0 +1,10 @@
+.faq-title {
+  padding: 3rem 3rem 3rem 10rem;
+  color: #164e4e;
+}
+
+@media (max-width: 768px) {
+  .faq-title {
+    padding: 2rem 2rem 2rem 5rem; 
+  }
+}

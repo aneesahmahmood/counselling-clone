@@ -1,0 +1,93 @@
+.contact-page {
+  padding: 20px;
+  background-color: #fdfbf5;
+}
+
+.contact-title {
+  font-size: 36px;
+  color: #c88328;
+  padding-top: 5rem;
+  padding-left: 20rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15rem;
+}
+
+.contact-info {
+  flex: 1;
+  margin-right: 20px;
+  width: 50%;
+  color: #164e4e;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-image {
+  flex: 1;
+}
+
+.office {
+  max-height: 500px;
+  width: auto;
+}
+
+.phone,
+.phonenumber,
+.email,
+.emailaddress {
+  color: #164e4e;
+  padding-left: 5rem;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 0 10rem;
+  }
+  .contact-title {
+    padding-left: 0 10rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+  }
+  .contact-title {
+    padding-left: 0 2rem;
+  }
+  .contact-info {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    padding-top: 3rem;
+    font-size: 28px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .phone,
+  .phonenumber,
+  .email,
+  .emailaddress {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-title {
+    padding-top: 2rem;
+    font-size: 24px;
+  }
+}

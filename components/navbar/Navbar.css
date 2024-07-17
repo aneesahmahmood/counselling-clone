@@ -1,0 +1,147 @@
+.navbar {
+  background-color: #fdfbf5;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #164e4e;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-right: 10rem;
+  font-size: 15px;
+}
+.navbar > ul > li {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  color: #164e4e;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  color: #e3a781;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  height: 115px;
+  justify-content: center;
+  background-color: #fdfbf5;
+}
+
+.header-text1 {
+  font-weight: 700;
+  font-size: 45px;
+  font-style: normal;
+  text-wrap: nowrap;
+  text-decoration: none;
+}
+
+.header-text2 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.header {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  background-color: #fdfbf5;
+  color: #164e4e;
+  padding: 1rem 0 2rem 10rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  color: #164e4e;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid #164e4e;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background-color: #164e4e;
+  color: #fdfbf5;
+}
+
+.nav-button > a {
+  color: #164e4e;
+}
+
+.nav-button:hover > a {
+  color: #fdfbf5;
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .header {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header-text1 {
+    font-size: 24px;
+  }
+
+  .header-text2 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .navbar {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .navbar ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .navbar li {
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #164e4e;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+
+  .navbar a:hover {
+    color: #e3a781;
+  }
+}
+
+
+
+span {
+  color: #164e4e;
+}
